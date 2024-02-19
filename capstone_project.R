@@ -12,7 +12,7 @@ setwd("C:/Users/Saurabh/Downloads/Google Capstone Case Study 1")
 
 
 
-## Collection Data
+## Collecting Data
 
 q1_2020 <- read_csv("Divvy_Trips_2020_Q1.csv")
 q2_2019 <- read_csv("Divvy_Trips_2019_Q2.csv")
@@ -30,7 +30,7 @@ colnames(q4_2019)
 
 
 
-## Reanming columns to those in q1_2020
+## Renaming columns to those in q1_2020
 
 q2_2019 <- rename(q2_2019
                   ,ride_id = "01 - Rental Details Rental ID"
